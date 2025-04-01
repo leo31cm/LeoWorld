@@ -10942,8 +10942,11 @@ p {
 }
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
-    float: right;
+    max-width: 300px;  /* Adjust this value as needed */
+	width: 100%;
+	height: auto;
+	/* Optional: Center the image if desired */
+	margin: 0 auto;
   }
   .intro .intro-text {
     left: 0;
