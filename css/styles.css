@@ -34,26 +34,30 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #e6a756;
-  --bs-secondary: #2F170F;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-primary-rgb: 230, 167, 86;
-  --bs-secondary-rgb: 47, 23, 15;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  /* Updated custom colors for grey-blue style */
+  --bs-primary: #5b7c99;
+  --bs-secondary: #2c3e50;
+  --bs-success: #87a8b0;
+  --bs-info: #74b3ce;
+  --bs-warning: #b0b0b0;
+  --bs-danger: #5a5a6a;
+  --bs-light: #f0f4f8;
+  --bs-dark: #2b3e50;
+  --bs-primary-rgb: 91,124,153;
+  --bs-secondary-rgb: 44,62,80;
+  --bs-success-rgb: 135,168,176;
+  --bs-info-rgb: 116,179,206;
+  --bs-warning-rgb: 176,176,176;
+  --bs-danger-rgb: 90,90,106;
+  --bs-light-rgb: 240,244,248;
+  --bs-dark-rgb: 43,62,80;
+  --bs-link-color: #5b7c99;
+  --bs-link-hover-color: #7a94ac;
+  --bs-code-color: #34495e;
+  --bs-highlight-bg: #d0e0ec;
+  --bs-body-color-rgb: 33,37,41;
+  --bs-body-bg-rgb: 255,255,255;
+  /* The rest of the variables remain unchanged */
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -73,10 +77,6 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #e6a756;
-  --bs-link-hover-color: #b88645;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
 }
 
 *,
