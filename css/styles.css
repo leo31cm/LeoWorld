@@ -10864,6 +10864,13 @@ p {
   line-height: 4rem;
   font-style: normal;
 }
+.just-me-again-down-here-regular {
+  font-family: "Just Me Again Down Here", cursive;
+   font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 100;
+  line-height: 4rem;
+  font-style: normal;
+}
 
 .page-section {
   margin-top: 5rem;
