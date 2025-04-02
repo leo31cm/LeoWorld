@@ -645,18 +645,10 @@ progress {
   .container-sm, .container {
     max-width: 540px;
   }
-   .moo-lah-lah-regular {
-    font-size: 2.5rem;
-    line-height: 3rem;
-  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
-  }
-    .moo-lah-lah-regular {
-    font-size: 2.5rem;
-    line-height: 3rem;
   }
 }
 @media (min-width: 992px) {
@@ -10867,7 +10859,7 @@ p {
 }
 .moo-lah-lah-regular {
   font-family: "Moo Lah Lah", sans-serif;
-  font-size: 5rem;
+  font-size: clamp(2rem, 6vw, 5rem);
   font-weight: 100;
   line-height: 4rem;
   font-style: normal;
@@ -10993,18 +10985,10 @@ p {
     position: absolute;
     bottom: -2rem;
   }
-    .moo-lah-lah-regular {
-    font-size: 2.5rem;
-    line-height: 3rem;
-  }
 }
 @media (min-width: 1200px) {
   .intro .intro-text {
     width: 45%;
-  }
-    .moo-lah-lah-regular {
-    font-size: 2.5rem;
-    line-height: 3rem;
   }
 }
 
