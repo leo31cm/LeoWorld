@@ -11044,3 +11044,129 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+.custom-audio-player {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+button#playPauseBtn {
+  width: 40px;
+  height: 40px;
+  background-color: #5b7c99;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+button#playPauseBtn.play::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-left: 14px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+button#playPauseBtn.pause::before,
+button#playPauseBtn.pause::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 6px;
+  height: 20px;
+  background: white;
+}
+
+button#playPauseBtn.pause::before {
+  left: 10px;
+}
+button#playPauseBtn.pause::after {
+  left: 20px;
+}
+
+.player {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.play-container {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-play {
+  width: 0;
+  height: 0;
+  border-left: 18px solid #5b7c99;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.toggle-play.pause {
+  border: none;
+}
+
+.toggle-play.pause::before,
+.toggle-play.pause::after {
+  content: '';
+  position: absolute;
+  background: #5b7c99;
+  height: 30px;
+  width: 6px;
+  top: 10px;
+}
+
+.toggle-play.pause::before {
+  left: 12px;
+}
+.toggle-play.pause::after {
+  left: 26px;
+}
+
+.bar {
+  flex-grow: 1;
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress {
+  background: #5b7c99;
+  height: 100%;
+  width: 0%;
+  transition: width 0.25s linear;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
