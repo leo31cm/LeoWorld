@@ -11045,6 +11045,7 @@ p {
   font-size: 1.2rem;
 }
 
+/***
 .custom-audio-player {
   width: 100%;
   max-width: 600px;
@@ -11170,3 +11171,4 @@ button#playPauseBtn.pause::after {
   width: 100%;
   gap: 10px;
 }
+*/

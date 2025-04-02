@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', event => {
 })
 
 
-    // Custom music player setup
+    /* Custom music player setup
     const audio = document.getElementById('audio');
     const playPauseBtn = document.getElementById('playPauseBtn');
     const progress = document.getElementById('progress');
@@ -55,4 +55,4 @@ window.addEventListener('DOMContentLoaded', event => {
         audio.addEventListener('timeupdate', updateProgress);
         progressContainer.addEventListener('click', setProgress);
     }
-});
+});*/
