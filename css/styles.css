@@ -10855,6 +10855,14 @@ p {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  font-family: 'Barriecito', cursive;
+}
+.moo-lah-lah-regular {
+  font-family: "Moo Lah Lah", sans-serif;
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+  font-style: normal;
 }
 
 .page-section {
@@ -11003,6 +11011,9 @@ p {
   }
 }
 
+.barriecito-text {
+  font-family: 'Barriecito', cursive;
+}
 .list-hours {
   font-size: 0.9rem;
 }
